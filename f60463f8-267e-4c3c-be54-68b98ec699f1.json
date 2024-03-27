@@ -6,7 +6,201 @@
     "controlSchema": {
       "schema": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "control_1": {
+            "type": "button",
+            "controlId": "7f863cb1-2a41-43b7-9307-e1c75c00538d",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "button",
+                "eventSelection": "CREATE_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "7f863cb1-2a41-43b7-9307-e1c75c00538d",
+                "handlers": [],
+                "handlerArgs": [],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "controlData": "Button",
+            "layoutSize": null,
+            "buttonColorType": "primary",
+            "icon": "",
+            "iconPosition": "left",
+            "shouldRenderHidden": false
+          },
+          "control_2": {
+            "type": "modal",
+            "controlId": "e03023d2-0a32-492c-a841-591831454e29",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "button",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "e03023d2-0a32-492c-a841-591831454e29",
+                "handlers": [
+                  "show"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "variables": [],
+            "modalSize": "md",
+            "hasHeader": true,
+            "hasFooter": false,
+            "modalHeaderMessage": "modal: ",
+            "pageSchema": {
+              "properties": {},
+              "controlSchema": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "control_3": {
+                      "type": "label",
+                      "controlId": "acb548ef-4b8a-4f84-ac00-8659f97186e4",
+                      "accessRoles": null,
+                      "privileges": null,
+                      "styles": {
+                        "useComponentShadow": false,
+                        "useGreyBackground": false,
+                        "useInnerGreyBackground": false
+                      },
+                      "events": [],
+                      "controlData": "<p>Hi there&nbsp;</p>",
+                      "layoutSize": null,
+                      "intl": false,
+                      "helpIconPosition": "alignLeft",
+                      "helpIconTooltipPosiiton": "right",
+                      "helpIconValue": null,
+                      "shouldRenderHidden": false
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema": {
+              "properties": {},
+              "controlSchema": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            },
+            "innerCanvasMappings": {
+              "pageSchema": "appElements",
+              "footerSchema": "footerElements"
+            }
+          },
+          "control_4": {
+            "type": "list",
+            "controlId": "0beab1b3-d4d0-4d8e-9519-9726ce351460",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "0beab1b3-d4d0-4d8e-9519-9726ce351460",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "getRoster",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {}
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [
+              {
+                "field": "people",
+                "name": "people",
+                "headerName": "people",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "position",
+                "name": "position",
+                "headerName": "position",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "title",
+                "name": "title",
+                "headerName": "title",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "region_name",
+                "name": "region_name",
+                "headerName": "region_name",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              }
+            ],
+            "whereClauseVariable": null,
+            "maxHeight": null,
+            "shouldRenderHidden": false,
+            "variables": [],
+            "selectedField": "",
+            "selectedVariable": ""
+          }
+        }
       }
     }
   },
