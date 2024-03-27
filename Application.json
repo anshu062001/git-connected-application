@@ -7,6 +7,14 @@
     "defaultBranch": "develop",
     "gitUrl": "https://github.com/anshu062001/git-connected-application",
     "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
-    "sections": []
+    "sections": [
+      {
+        "accessRoles": null,
+        "privileges": null,
+        "name": "demo",
+        "icon": "Alert Circle",
+        "sections": []
+      }
+    ]
   }
 ]
