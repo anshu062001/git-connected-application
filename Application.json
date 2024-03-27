@@ -1,0 +1,12 @@
+[
+  {
+    "accessRoles": [],
+    "applicationId": "484b52b5-a6e1-4f06-aea3-2ae5aba50fe8",
+    "applicationName": "git-connected-application",
+    "applicationState": "DRAFT",
+    "defaultBranch": "develop",
+    "gitUrl": "https://github.com/anshu062001/git-connected-application",
+    "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
+    "sections": []
+  }
+]
