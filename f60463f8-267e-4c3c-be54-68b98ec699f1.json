@@ -64,6 +64,22 @@
                 ],
                 "preHandlers": [],
                 "preHandlerArgs": []
+              },
+              {
+                "name": "cancel",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "e03023d2-0a32-492c-a841-591831454e29",
+                "handlers": [
+                  "hide"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
               }
             ],
             "variables": [],
@@ -94,6 +110,37 @@
                       "helpIconPosition": "alignLeft",
                       "helpIconTooltipPosiiton": "right",
                       "helpIconValue": null,
+                      "shouldRenderHidden": false
+                    },
+                    "control_5": {
+                      "type": "button",
+                      "controlId": "b4762f9f-5cc2-46f5-806e-1f53a6ba9534",
+                      "accessRoles": null,
+                      "privileges": null,
+                      "styles": {
+                        "useComponentShadow": false,
+                        "useGreyBackground": false,
+                        "useInnerGreyBackground": false
+                      },
+                      "events": [
+                        {
+                          "name": "cancel",
+                          "eventSelection": "CREATE_EVENT",
+                          "broadcastArgs": {
+                            "validationXsql": ""
+                          },
+                          "id": "b4762f9f-5cc2-46f5-806e-1f53a6ba9534",
+                          "handlers": [],
+                          "handlerArgs": [],
+                          "preHandlers": [],
+                          "preHandlerArgs": []
+                        }
+                      ],
+                      "controlData": "Cancel",
+                      "layoutSize": null,
+                      "buttonColorType": "primary",
+                      "icon": "",
+                      "iconPosition": "left",
                       "shouldRenderHidden": false
                     }
                   }
