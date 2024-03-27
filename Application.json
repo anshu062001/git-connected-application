@@ -9,11 +9,12 @@
     "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
     "sections": [
       {
-        "accessRoles": null,
-        "privileges": null,
         "name": "demo",
         "icon": "Alert Circle",
-        "sections": []
+        "sections": [],
+        "accessRoles": null,
+        "privileges": null,
+        "pageDefinitionId": "f60463f8-267e-4c3c-be54-68b98ec699f1"
       }
     ]
   }
